@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/lista-de-exercicios-dback.iml" filepath="$PROJECT_DIR$/lista-de-exercicios-dback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listaDeExercicios.iml" filepath="$PROJECT_DIR$/listaDeExercicios.iml" />
     </modules>
   </component>
 </project>

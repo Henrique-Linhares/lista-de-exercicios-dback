@@ -1,10 +1,11 @@
 package exercicio04;
 
-public class CartaoDeCredito implements Pagavel{
+public class CartaoDeCredito implements Pagavel {
     private String numeroCartao;
     private double valor;
-    
-    public CartaoDeCredito() {}
+
+    public CartaoDeCredito() {
+    }
 
     public CartaoDeCredito(String numeroCartao, double valor) {
         this.numeroCartao = numeroCartao;

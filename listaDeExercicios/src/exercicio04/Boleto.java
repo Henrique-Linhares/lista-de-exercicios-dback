@@ -1,10 +1,11 @@
 package exercicio04;
 
-public class Boleto implements Pagavel{
+public class Boleto implements Pagavel {
     private String codigoBarras;
     private double valor;
 
-    public Boleto() {}
+    public Boleto() {
+    }
 
     public Boleto(String codigoBarras, double valor) {
         this.codigoBarras = codigoBarras;

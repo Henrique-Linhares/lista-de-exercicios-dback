@@ -6,7 +6,7 @@
 package exercicio07;
 
 public enum Moeda {
-    REAL(0.19),
+    REAL(1.0),
     DOLAR(5.31),
     EURO(6.14);
 
@@ -27,6 +27,12 @@ public enum Moeda {
     }
     
     public double converteParaReal(double valor) {
+        return valor * taxaCambio;
+    }
+
+
+    // Método de conversão
+    public Double converteParaReal(Double valor) {
         return valor * taxaCambio;
     }
 }

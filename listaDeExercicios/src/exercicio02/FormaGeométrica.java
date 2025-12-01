@@ -8,6 +8,6 @@ package exercicio02;
 
 public abstract class FormaGeométrica {
 
-    //Método para calcular a área
+    // Método para calcular a área
     public abstract double calcularArea();
 }

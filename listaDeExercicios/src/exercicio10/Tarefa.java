@@ -4,8 +4,6 @@ public class Tarefa {
     private String descricao;
     private Prioridade prioridade;
 
-    
-
     public Tarefa() {
     }
 
@@ -13,8 +11,6 @@ public class Tarefa {
         this.descricao = descricao;
         this.prioridade = prioridade;
     }
-
-    
 
     public String getDescricao() {
         return descricao;

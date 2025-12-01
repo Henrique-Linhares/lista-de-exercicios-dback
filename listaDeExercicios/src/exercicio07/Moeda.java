@@ -12,7 +12,8 @@ public enum Moeda {
 
     private double taxaCambio;
 
-    private Moeda() {}
+    private Moeda() {
+    }
 
     private Moeda(double taxaCambio) {
         this.taxaCambio = taxaCambio;
@@ -25,11 +26,10 @@ public enum Moeda {
     public void setTaxaCambio(double taxaCambio) {
         this.taxaCambio = taxaCambio;
     }
-    
+
     public double converteParaReal(double valor) {
         return valor * taxaCambio;
     }
-
 
     // Método de conversão
     public Double converteParaReal(Double valor) {

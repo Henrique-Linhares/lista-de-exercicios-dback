@@ -1,6 +1,6 @@
 package exercicio02;
 
-public class Retangulo extends FormaGeométrica{
+public class Retangulo extends FormaGeométrica {
     private double base;
     private double altura;
 
@@ -9,7 +9,8 @@ public class Retangulo extends FormaGeométrica{
         this.altura = altura;
     }
 
-    public Retangulo() {}
+    public Retangulo() {
+    }
 
     public double getBase() {
         return base;

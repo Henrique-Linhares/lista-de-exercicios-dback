@@ -1,6 +1,6 @@
 package exercicio10;
 
-public class Programador extends MembroEquipe{
+public class Programador extends MembroEquipe {
     private String nivel;
 
     public Programador(String nome, String nivel) {
@@ -20,8 +20,9 @@ public class Programador extends MembroEquipe{
         this.nivel = nivel;
     }
 
-     @Override
+    @Override
     public void trabalhar() {
-        System.out.println("O programador" + getNome() + "de nível" + getNivel() + " está programando e corrigindo bugs.");
+        System.out.println(
+                "O programador " + getNome() + " de nível " + getNivel() + " está programando e corrigindo bugs.");
     }
 }

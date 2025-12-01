@@ -6,9 +6,8 @@ public class Designer extends MembroEquipe {
         super(nome);
     }
 
-
     @Override
     public void trabalhar() {
-        System.out.println("O Designer" + getNome() + " está criando protótipos");
+        System.out.println("O Designer " + getNome() + " está criando protótipos");
     }
 }

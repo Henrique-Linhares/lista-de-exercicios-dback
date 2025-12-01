@@ -1,13 +1,14 @@
 package exercicio02;
 
-public class Quadrado extends FormaGeométrica{
+public class Quadrado extends FormaGeométrica {
     private double lado;
 
     public Quadrado(double lado) {
         this.lado = lado;
     }
 
-    public Quadrado() {}
+    public Quadrado() {
+    }
 
     public double getLado() {
         return lado;

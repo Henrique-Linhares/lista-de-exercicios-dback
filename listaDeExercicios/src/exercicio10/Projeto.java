@@ -5,13 +5,13 @@ import java.util.List;
 
 public class Projeto {
     private String nomeProjeto;
-    private List<MembroEquipe> membros; 
-    
+    private List<MembroEquipe> membros;
+
     private List<Tarefa> tarefas;
 
     public Projeto(String nomeProjeto) {
         this.nomeProjeto = nomeProjeto;
-        this.membros = new ArrayList<>(); 
+        this.membros = new ArrayList<>();
         this.tarefas = new ArrayList<>();
     }
 
@@ -24,13 +24,13 @@ public class Projeto {
     }
 
     public void exibirProjeto() {
-        System.out.println("PROJETO: " + this.nomeProjeto);
-                System.out.println("\n[ 1. Status da Equipe ]");
+        System.out.println("Projeto: " + this.nomeProjeto);
+        System.out.println("Status da Equipe: ");
         for (MembroEquipe membro : membros) {
-            membro.trabalhar(); 
+            membro.trabalhar();
         }
 
-        System.out.println("\n[ 2. Tarefas Pendentes ]");
+        System.out.println("Tarefas Pendentes: ");
         if (tarefas.isEmpty()) {
             System.out.println("Nenhuma tarefa cadastrada.");
         } else {

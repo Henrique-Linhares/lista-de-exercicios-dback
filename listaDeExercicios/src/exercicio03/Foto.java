@@ -1,10 +1,11 @@
 package exercicio03;
 
-public class Foto implements Imprimivel{
+public class Foto implements Imprimivel {
     private String nomeFoto;
     private String tamanhoFoto;
 
-    public Foto() {}
+    public Foto() {
+    }
 
     public Foto(String tamanhoFoto, String nomeFoto) {
         this.tamanhoFoto = tamanhoFoto;

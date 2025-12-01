@@ -1,26 +1,27 @@
 package exercicio01;
 
-public class Gerente extends Funcionario{
+public class Gerente extends Funcionario {
     private String departamentoSupervisionado;
     private double participacaoLucros;
 
-    //Construtor vazio
-    public Gerente() {}
+    // Construtor vazio
+    public Gerente() {
+    }
 
-    //Construtor com parâmetros
+    // Construtor com parâmetros
     public Gerente(String departamentoSupervisionado, double participacaoLucros) {
         this.departamentoSupervisionado = departamentoSupervisionado;
         this.participacaoLucros = participacaoLucros;
     }
 
-    //Construtor Com atributos da super
+    // Construtor Com atributos da super
     public Gerente(String nome, double salario, String departamentoSupervisionado, double participacaoLucros) {
         super(nome, salario);
         this.departamentoSupervisionado = departamentoSupervisionado;
         this.participacaoLucros = participacaoLucros;
     }
 
-    //Getters e Setters
+    // Getters e Setters
     public String getDepartamentoSupervisionado() {
         return departamentoSupervisionado;
     }
@@ -37,11 +38,11 @@ public class Gerente extends Funcionario{
         this.participacaoLucros = participacaoLucros;
     }
 
-    //Método sobrescrito da Funcionário
+    // Método sobrescrito da Funcionário
     @Override
     public double calcularBonus() {
-        //15%
-       return getSalario() * 0.15;
+        // 15%
+        return getSalario() * 0.15;
     }
 
 }

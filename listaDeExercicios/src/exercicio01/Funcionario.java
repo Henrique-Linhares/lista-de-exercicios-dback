@@ -12,9 +12,10 @@ public abstract class Funcionario {
     private double salario;
 
     // Construtor vazio
-    public Funcionario() {}
+    public Funcionario() {
+    }
 
-    //Construtor com parâmetros
+    // Construtor com parâmetros
     public Funcionario(String nome, double salario) {
         this.nome = nome;
         this.salario = salario;

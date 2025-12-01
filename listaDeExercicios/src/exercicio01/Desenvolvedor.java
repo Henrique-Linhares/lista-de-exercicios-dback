@@ -1,26 +1,27 @@
 package exercicio01;
 
-public class Desenvolvedor extends Funcionario{
+public class Desenvolvedor extends Funcionario {
     private String especializacao;
     private String nivelExeperiencia;
 
-    //Construtor vazio
-    public Desenvolvedor() {}
+    // Construtor vazio
+    public Desenvolvedor() {
+    }
 
-    //Construtor com parâmetros
+    // Construtor com parâmetros
     public Desenvolvedor(String especializacao, String nivelExeperiencia) {
         this.especializacao = especializacao;
         this.nivelExeperiencia = nivelExeperiencia;
     }
 
-    //Construtor com atributos da super
+    // Construtor com atributos da super
     public Desenvolvedor(String nome, double salario, String especializacao, String nivelExeperiencia) {
         super(nome, salario);
         this.especializacao = especializacao;
         this.nivelExeperiencia = nivelExeperiencia;
     }
 
-    //Getters e Setters
+    // Getters e Setters
     public String getEspecializacao() {
         return especializacao;
     }

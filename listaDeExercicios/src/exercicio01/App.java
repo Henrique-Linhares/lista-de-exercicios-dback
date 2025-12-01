@@ -1,6 +1,5 @@
 package exercicio01;
 
-
 public class App {
     public static void main(String[] args) {
         Gerente gerente = new Gerente("Henrique", 5000.00, "Marketing", 0.05);
@@ -9,7 +8,7 @@ public class App {
         System.out.println("Funcionário: " + gerente.getNome());
         System.out.println("Salário Base: R$" + gerente.getSalario());
         System.out.println("Bônus Calculado (15%): " + bonusGerente);
-        System.out.println("Salário Total: " +  (gerente.getSalario() + bonusGerente));
+        System.out.println("Salário Total: " + (gerente.getSalario() + bonusGerente));
         System.out.println();
 
         Desenvolvedor desenvolvedor = new Desenvolvedor("Kelly", 6500.00, "Back-end", "Pleno");

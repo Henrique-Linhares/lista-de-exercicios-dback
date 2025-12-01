@@ -5,7 +5,7 @@ public class App {
 
         System.out.println("Dias da Semana: ");
 
-        //For each para cada dia da semana
+        // For each para cada dia da semana
         for (DiaSemana dia : DiaSemana.values()) {
             imprimirMensagem(dia);
         }

@@ -1,13 +1,14 @@
 package exercicio02;
 
-public class Circulo extends FormaGeométrica{
+public class Circulo extends FormaGeométrica {
     private double raio;
 
     public Circulo(double raio) {
         this.raio = raio;
     }
 
-    public Circulo() {}
+    public Circulo() {
+    }
 
     public double getRaio() {
         return raio;

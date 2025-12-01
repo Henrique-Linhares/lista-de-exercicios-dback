@@ -1,10 +1,11 @@
 package exercicio03;
 
-public class Documento implements Imprimivel{
+public class Documento implements Imprimivel {
     private String nome;
     private int numPaginas;
 
-    public Documento() {}
+    public Documento() {
+    }
 
     public Documento(String nome, int numPaginas) {
         this.nome = nome;

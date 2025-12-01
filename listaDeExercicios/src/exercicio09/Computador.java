@@ -8,5 +8,48 @@
 package exercicio09;
 
 public class Computador {
-    
+    private Processador processador;
+    private Memoria memoria;
+    private String nome;
+
+    public Computador() {
+    }
+
+    public Computador(String nome, String modeloProcessador, String armazenamentoMemoria) {
+        this.nome = nome;
+        this.processador = new Processador(modeloProcessador);
+        this.memoria = new Memoria(armazenamentoMemoria);
+    }
+
+    public Processador getProcessador() {
+        return processador;
+    }
+
+    public void setProcessador(Processador processador) {
+        this.processador = processador;
+    }
+
+    public Memoria getMemoria() {
+        return memoria;
+    }
+
+    public void setMemoria(Memoria memoria) {
+        this.memoria = memoria;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    @Override
+    public String toString() {
+        return "Detalhes do Computador: " + this.nome + "\n" +
+                "Processador: " + this.processador.getModelo() + "\n" +
+                "Memória: " + this.memoria.getArmazenamento();
+    }
+
 }

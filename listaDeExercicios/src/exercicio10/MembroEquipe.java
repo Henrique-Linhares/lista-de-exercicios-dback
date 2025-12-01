@@ -44,8 +44,15 @@
 package exercicio10;
 
 public abstract class MembroEquipe {
-    private String nome;
+    private final String nome;
 
+    public MembroEquipe(String nome) {
+        this.nome = nome;
+    }
+
+    public String getNome() {
+        return nome;
+    }
 
     public abstract void trabalhar();
 }
